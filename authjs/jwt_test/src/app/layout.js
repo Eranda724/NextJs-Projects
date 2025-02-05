@@ -1,21 +1,16 @@
-import { Inter } from "next/font/google"; // ✅ Correct import
+// 📁 src/app/layout.js
+
+import { Inter } from "next/font/google";
 import "./globals.css";
-import { Navigation } from "../components/Navigation";
-// 📁 app/layout.js
+import Navigation from "../components/Navigation"; // ✅ Correct import
 
-const inter = Inter({ subsets: ['latin'] });
-
-export const metadata = {
-  title: 'Family Guy',
-  description: 'Come here and learn more about Family Guy!',
-};
-
+const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        <Navigation />
+      <body className={inter.className}>
+        <Navigation /> {/* ✅ Add navigation here */}
         {children}
       </body>
     </html>
