@@ -1,21 +1,20 @@
 import { NextResponse } from "next/server";
 import bcrypt from "bcryptjs";
 import pool from "@/lib/db";
-import { RowDataPacket } from "mysql2";
 
 export async function POST(req: Request) {
   try {
     const { email, password } = await req.json();
 
     const connection = await pool.getConnection();
-    const [rows] = await connection.query<RowDataPacket[]>("SELECT * FROM users WHERE email = ?", [email]);
+    const [rows] = await connection.query("SELECT * FROM users WHERE email = ?", [email]);
     connection.release();
 
-    if (rows.length === 0) {
+    if ((rows as any[]).length === 0) {
       return NextResponse.json({ message: "User not found!" }, { status: 404 });
     }
 
-    const user = rows[0] as { email: string; password: string };
+    const user = (rows as any[])[0];
     const passwordMatch = await bcrypt.compare(password, user.password);
 
     if (!passwordMatch) {
