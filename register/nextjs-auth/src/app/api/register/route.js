@@ -7,8 +7,8 @@ export async function POST(request) {
 
   try {
     await pool.query(
-      'INSERT INTO users (username, email, password) VALUES (?, ?, ?)',
-      [username, email, hashedPassword]
+      'INSERT INTO users (username, email, password, details) VALUES (?, ?, ?, ?)',
+      [username, email, hashedPassword, '']
     );
     return Response.json({ message: 'User registered successfully' }, { status: 201 });
   } catch (error) {

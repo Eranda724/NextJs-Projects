@@ -5,13 +5,13 @@ export default function Dashboard() {
   const user = userCookie ? JSON.parse(userCookie.value) : null;
 
   if (!user) {
-    return <p>Loading...</p>;
+    return <p>incorrect</p>;
   }
 
   return (
     <div>
-      <h1>Welcome, {user.email}</h1>
-      <p>This is your dashboard.</p>
+      <h1>Welcome</h1>
+      <p>Hi!, {user.username}</p>
     </div>
   );
 }
