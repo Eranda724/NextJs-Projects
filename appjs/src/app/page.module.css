@@ -1,0 +1,12 @@
+.link{
+    color:darkgrey
+}
+.link:hover{
+    color:brown
+}
+#specialLink{
+    color:yellow
+}
+#specialLink:hover{
+    color:red
+}
