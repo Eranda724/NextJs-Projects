@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/erand/OneDrive%20-%20University%20of%20Jaffna/myGit%20proj/NextJs-Projects/loginJs/logjs/src/app/%28auth%29/layout.tsx"],"sourcesContent":["import { FC, ReactNode } from 'react';\r\n\r\ninterface AuthLayoutProps {\r\n  children: ReactNode;\r\n}\r\n\r\nconst AuthLayout: FC<AuthLayoutProps> = ({ children }) => {\r\n  return <div className='bg-slate-200 p-10 rounded-md'>{children}</div>;\r\n};\r\n\r\nexport default AuthLayout;"],"names":[],"mappings":";;;;;AAMA,MAAM,aAAkC,CAAC,EAAE,QAAQ,EAAE;IACnD,qBAAO,8OAAC;QAAI,WAAU;kBAAgC;;;;;;AACxD;uCAEe"}},
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

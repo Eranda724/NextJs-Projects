@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 47, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/erand/OneDrive%20-%20University%20of%20Jaffna/myGit%20proj/NextJs-Projects/loginJs/logjs/src/app/hello/route.js"],"sourcesContent":["export async function name(params) {\r\n    return Response.json({\r\n        messege: 'John Doe'\r\n    });\r\n}"],"names":[],"mappings":";;;AAAO,eAAe,KAAK,MAAM;IAC7B,OAAO,SAAS,IAAI,CAAC;QACjB,SAAS;IACb;AACJ"}},
+    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
