@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/app/page.module.css"],"sourcesContent":[".link{\r\n    color:darkgrey\r\n}\r\n.link:hover{\r\n    color:brown\r\n}\r\n#specialLink{\r\n    color:yellow\r\n}\r\n#specialLink:hover{\r\n    color:red\r\n}"],"names":[],"mappings":"AAAA;;;;AAGA;;;;AAGA;;;;AAGA"}},
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

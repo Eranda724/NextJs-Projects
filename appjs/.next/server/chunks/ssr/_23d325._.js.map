@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/erand/OneDrive%20-%20University%20of%20Jaffna/myGit%20proj/nodeJs/appjs/src/app/page.js"],"sourcesContent":["import Image from \"next/image\";\nimport Link from \"next/link\";\n\nexport default function Home() {\n  return (\n    <>\n      <h1>\n        Home Page\n      </h1>\n      <ul>\n        <li>\n          <Link href=\"/provider/doctor\">Doctor</Link>\n        </li>\n        <li>\n          <Link href=\"/about\">About</Link>\n        </li>\n        <li>\n          <Link href=\"/contact\">Contact</Link>\n        </li>\n        <li>\n          <Link href=\"/provider/teacher\">Teacher</Link>\n        </li>\n      </ul>\n\n      <Link href=\"https://nextjs.org/\" target=\"_blank\">NextJs website</Link> \n      \n    </>\n  )\n}\n"],"names":[],"mappings":";;;;AAAA;AACA;;;;AAEe,SAAS;IACtB,qBACE;;0BACE,8OAAC;0BAAG;;;;;;0BAGJ,8OAAC;;kCACC,8OAAC;kCACC,cAAA,8OAAC,4JAAA,CAAA,UAAI;4BAAC,MAAK;sCAAmB;;;;;;;;;;;kCAEhC,8OAAC;kCACC,cAAA,8OAAC,4JAAA,CAAA,UAAI;4BAAC,MAAK;sCAAS;;;;;;;;;;;kCAEtB,8OAAC;kCACC,cAAA,8OAAC,4JAAA,CAAA,UAAI;4BAAC,MAAK;sCAAW;;;;;;;;;;;kCAExB,8OAAC;kCACC,cAAA,8OAAC,4JAAA,CAAA,UAAI;4BAAC,MAAK;sCAAoB;;;;;;;;;;;;;;;;;0BAInC,8OAAC,4JAAA,CAAA,UAAI;gBAAC,MAAK;gBAAsB,QAAO;0BAAS;;;;;;;;AAIvD"}},
+    {"offset": {"line": 102, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 113, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 113, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
