@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/erand/OneDrive%20-%20University%20of%20Jaffna/myGit%20proj/NextJs-Projects/authjs/jwt_test/src/app/layout.js"],"sourcesContent":["import { Geist, Geist_Mono } from \"next/font/google\";\nimport \"./globals.css\";\n\n// 📁 app/layout.js\n\nconst inter = Inter({ subsets: ['latin'] })\n\nexport const metadata = {\n  title: 'Family Guy',\n  description: 'Come here and learn more about Family Guy!',\n}\n\nexport default function RootLayout({ children }) {\n  return (\n    <html lang=\"en\">\n      <body className={inter.className}>\n        {children}\n      </body>\n    </html>\n  )\n}\n\n"],"names":[],"mappings":";;;;;;;AAGA,mBAAmB;AAEnB,MAAM,QAAQ,MAAM;IAAE,SAAS;QAAC;KAAQ;AAAC;AAElC,MAAM,WAAW;IACtB,OAAO;IACP,aAAa;AACf;AAEe,SAAS,WAAW,EAAE,QAAQ,EAAE;IAC7C,qBACE,8OAAC;QAAK,MAAK;kBACT,cAAA,8OAAC;YAAK,WAAW,MAAM,SAAS;sBAC7B;;;;;;;;;;;AAIT"}},
+    {"offset": {"line": 41, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 52, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/erand/OneDrive%20-%20University%20of%20Jaffna/myGit%20proj/NextJs-Projects/authjs/jwt_test/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-rsc'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,0HAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0]}},
+    {"offset": {"line": 54, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
